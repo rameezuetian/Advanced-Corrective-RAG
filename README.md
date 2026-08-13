@@ -70,6 +70,18 @@ This project addresses these problems by introducing a **corrective RAG workflow
 
 ## ✨ Key Features
 
+### 🔹 Basic RAG
+
+The project starts with a standard RAG pipeline:
+
+* Load PDF documents
+* Split documents into chunks
+* Generate embeddings
+* Store embeddings in FAISS
+* Retrieve relevant documents
+* Pass retrieved context to an LLM
+* Generate an answer based only on the retrieved context
+
 
 ---
 
